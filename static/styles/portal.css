@@ -1,0 +1,223 @@
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    
+    .selection {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    .selection a {
+        text-decoration: none;
+        font-size: 14px;
+        padding: 10px;
+        border: 1px solid rgb(59, 51, 51);
+        color: white;
+        background-color: rgb(68, 68, 106);
+        width: 30%;
+    }
+    
+    table {
+        width: 75%;
+        margin: auto;
+    }
+    
+    .bottom {
+        margin-top: 40px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    #bottom {
+        margin-top: 40px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    #bottom a {
+        text-decoration: none;
+        font-size: 15px;
+    }
+    
+    .bottom a {
+        text-decoration: none;
+        font-size: 15px;
+    }
+    
+    .ord3 {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    
+    tr:nth-child(even) {
+        background-color: aqua;
+    }
+    
+    .ord {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo img {
+        width: 200px;
+        height: 100px;
+    }
+    
+    h2,
+    h3,
+    h4 {
+        text-align: center;
+    }
+    
+    .links ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    
+    .links ul li {
+        margin: 10px;
+        font-size: 13px;
+        font-weight: 900;
+    }
+    
+    .stock {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .errors {
+        text-align: center;
+        color: red;
+        font-size: 15px;
+        padding: 10px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .footer {
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+        height: 50vh;
+        background-color: rgb(110, 110, 207, 0.4);
+    }
+    
+    .footer h4 {
+        margin-top: 20px;
+        margin-bottom: 25px;
+        font: weight 600;
+    }
+    
+    .icons .fa {
+        color: #f44336;
+        margin: 0 13px;
+        cursor: pointer;
+        padding: 18 0px;
+    }
+    
+    .fa-heart-o {
+        color: #f44336;
+    }
+    
+    table,
+    td,
+    th,
+    tr {
+        /* border: 2px solid black; */
+        border-collapse: collapse;
+        padding: 10px
+    }
+    
+    .item-img img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .links a {
+        text-decoration: none;
+    }
+    
+    .add-shoe {
+        width: 40%;
+        margin: auto;
+        background-color: rgb(184, 200, 200);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 7px;
+    }
+    
+    .add-shoe input {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        padding: 8px;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 7px;
+    }
+    
+     ::placeholder {
+        font-size: 15px;
+    }
+    
+    .tx {
+        text-align: center;
+    }
+    
+    textarea {
+        text-align: center;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        padding: 8px;
+    }
+    
+    .btn {
+        width: 100px;
+        padding: 10px;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    
+    @media(max-width:800px) {
+        .links ul {
+            flex-direction: column;
+        }
+        .header {
+            display: block
+        }
+        table {
+            width: 90%;
+        }
+        .stock {
+            width: 100%;
+            padding: 2px
+        }
+        .logo img {
+            width: 100px;
+        }
+        th,
+        td {
+            padding: 2px
+        }
+    }
